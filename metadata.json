@@ -1,0 +1,6 @@
+{
+  "name": "AutoBuy & Sell - Vehicle Profit & Partner Expense Calculator",
+  "description": "Per-unit vehicle profit, reconditioning expenses, turnover days, and partner expense allocation (Janssen & Ralph) for car traders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

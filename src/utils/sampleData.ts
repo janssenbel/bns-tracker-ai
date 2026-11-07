@@ -1,0 +1,88 @@
+import { VehicleRecord } from '../types';
+
+export const INITIAL_SAMPLE_RECORDS: VehicleRecord[] = [
+  {
+    id: 'sample-car-1',
+    year: '2021',
+    make: 'Toyota',
+    model: 'Fortuner 2.8 V 4x2 AT',
+    plateNumber: 'NDK 4821',
+    dateBought: '2026-10-15',
+    dateSold: '2026-11-02',
+    buyPrice: 1380000,
+    buyPayer: 'Both',
+    sellPrice: 1560000,
+    currency: '₱',
+    expenses: [
+      {
+        id: 'exp-1',
+        name: 'Detailing / 3-Stage Exterior Buffing & Interior Shampoo',
+        amount: 8500,
+        payer: 'Janssen',
+      },
+      {
+        id: 'exp-2',
+        name: 'Mechanical PMS / Synthetic Oil, Filter & Brake Pads',
+        amount: 14200,
+        payer: 'Ralph',
+      },
+      {
+        id: 'exp-3',
+        name: 'Body Paint Touch-up (Front Bumper Chip)',
+        amount: 4500,
+        payer: 'Both',
+      },
+      {
+        id: 'exp-4',
+        name: 'LTO Transfer & HPG Clearance / Notary',
+        amount: 6800,
+        payer: 'Both',
+      },
+      {
+        id: 'exp-5',
+        name: 'Agent / Broker Commission',
+        amount: 25000,
+        payer: 'Both',
+      },
+    ],
+    notes: 'Sold to direct buyer in Quezon City. Clean papers.',
+    createdAt: Date.now() - 86400000 * 22,
+    updatedAt: Date.now() - 86400000 * 4,
+  },
+  {
+    id: 'sample-car-2',
+    year: '2019',
+    make: 'Honda',
+    model: 'Civic 1.8 E CVT',
+    plateNumber: 'NDB 9042',
+    dateBought: '2026-10-24',
+    dateSold: '',
+    buyPrice: 680000,
+    buyPayer: 'Both',
+    sellPrice: 795000,
+    currency: '₱',
+    expenses: [
+      {
+        id: 'exp-201',
+        name: 'Interior Steam Clean & Ceramic Wax',
+        amount: 5500,
+        payer: 'Janssen',
+      },
+      {
+        id: 'exp-202',
+        name: 'New Battery (Amaron) & PMS Checkup',
+        amount: 7800,
+        payer: 'Ralph',
+      },
+      {
+        id: 'exp-203',
+        name: 'Gas & Towing Transport to Showroom',
+        amount: 2500,
+        payer: 'Both',
+      },
+    ],
+    notes: 'Currently in showroom lot. Inquiries active on FB Marketplace.',
+    createdAt: Date.now() - 86400000 * 13,
+    updatedAt: Date.now() - 86400000 * 13,
+  },
+];
